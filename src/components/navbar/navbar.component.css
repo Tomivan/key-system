@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+Ul{
+    display: flex;
+    list-style-type: none;
+    color: #ffffff;
+}
+li{
+    padding-right: 1em;
+}
+.right {
+    display: flex;
+    color: #ffffff;
+    background: #4169e1;
+    border-radius: 50px;
+    height: 7vh;
+    width: 13vw;
+    padding: 1em;
+    border: 1px solid #4169e1;
+}
+.phone{
+    height: 3vh;
+    margin-right: 3%;
+}
