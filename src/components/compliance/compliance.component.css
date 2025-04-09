@@ -1,0 +1,17 @@
+.compliance {
+    padding: 2em 0;
+    text-align: center;
+    background: #05071e;
+}
+.contact-us{
+    background: linear-gradient(135deg, #000080 0%, #4169e1 100%);
+    padding: 1em;
+    border: 1px solid #4169e1;
+    border-radius: 50px;
+    color: #fff;
+    width: 10vw;
+}
+.frame{
+    height: 50vh;
+    margin-top: 3%;
+}

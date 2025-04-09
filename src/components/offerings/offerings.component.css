@@ -1,0 +1,55 @@
+.offerings {
+    text-align: center;
+    background: #05071e;
+    padding: 2em 0;
+}
+.learn-more-1 {
+    background: #4169e1;
+    padding: 1em;
+    border: 1px solid #4169e1;
+    border-radius: 50px;
+    color: #fff;
+    width: 10vw;
+}
+.button-section button{
+    padding: 1em;
+    border: 1px solid #4169e1;
+    border-radius: 50px;
+    color: #fff;
+    width: 11vw;
+    height: 9vh;
+}
+.banking {
+    background: linear-gradient(135deg, #0a3440 0%, #05071e 100%);
+}
+.digital {
+    background: linear-gradient(135deg, #0a0e40 0%, #05071e 100%);
+}
+.online {
+    background: linear-gradient(135deg, #400a3a 0%, #05071e 100%);
+}
+.augmentation {
+    background: linear-gradient(135deg, #0d400a 0%, #05071e 100%);
+}
+.audit {
+    background: linear-gradient(135deg, #40330a 0%, #05071e 100%);
+}
+.data {
+    background: linear-gradient(135deg, #4a8c2b 0%, #05071e 100%);
+}
+.business {
+    background: linear-gradient(135deg, #400a0a 0%, #05071e 100%);
+}
+.testing {
+    background: linear-gradient(135deg, #3ca3ba 0%, #05071e 100%);
+}
+.cybersecurity {
+    background: linear-gradient(135deg, #6012ce 0%, #05071e 100%);
+}
+.middle {
+    margin-top: 3%;
+}
+.top-buttons, .middle-buttons, .bottom-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

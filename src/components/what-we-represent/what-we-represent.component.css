@@ -1,0 +1,23 @@
+.what-we-represent {
+    text-align: center;
+    background: #030517;
+    padding: 2em 0;
+}
+.mission-vision{
+    display: flex;
+    justify-content: center;
+}
+.vision {
+    border: 1px solid #01b4de;
+    border-radius: 5px;
+    padding: 1em;
+}
+.mission {
+    border: 1px solid #01b4de;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1em;
+}
+.mission-image, .vision-image {
+    height: 20vh;
+}

@@ -1,0 +1,32 @@
+.footer {
+    padding: 2em 1em;
+    background: #030517;
+}
+.footer-top, .footer-bottom {
+    display: flex;
+}
+.footer-left {
+    width: 40%;
+}
+.footer-right{
+    width: 60%;
+}
+.service, .contact-top, .contact-middle, .contact-bottom {
+    display: flex;
+}
+.service-left, .service-right {
+    width: 100%;
+}
+.service-right{
+    margin-left: 5%;
+}
+.country{
+    margin-right: 5%;
+    width: 100%;
+}
+.footer-image {
+    margin-right: 5%;
+}
+.footer-left-bottom {
+    margin-top: 40%;
+}
