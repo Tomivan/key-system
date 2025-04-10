@@ -21,3 +21,27 @@
 .mission-image, .vision-image {
     height: 20vh;
 }
+@media screen and (max-width: 767px) {
+    .mission-vision {
+      flex-direction: column;
+    }
+    .mission, .vision {
+        width: 85%;
+        margin-bottom: 3%;
+        margin-left: 3%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .mission-vision {
+      flex-direction: column;
+    }
+    .mission, .vision {
+        width: 90%;
+    }
+    .mission {
+        margin-top: 3%;
+    }
+    .vision {
+        margin-left: 2%;
+    }
+}

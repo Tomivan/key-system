@@ -53,3 +53,16 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 767px) {
+    .learn-more-1, .button-section button {
+      width: 30%;
+      height: 11vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .learn-more-1, .button-section button {
+      width: 20vw;
+    }
+  }

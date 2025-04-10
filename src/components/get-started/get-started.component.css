@@ -1,0 +1,34 @@
+.started-component{
+    padding: 2em 1em;
+    background: linear-gradient(135deg, #030517 0%, #181b4d 100%);
+}
+.container {
+    border: 1px solid #4169e1;
+    background: linear-gradient(135deg, #030517 0%, #181b4d 100%);
+    border-radius: 20px;
+    width: 60vw;
+    margin-left: 20%;
+    padding: 1em;
+}
+.send-mail {
+    display: flex;
+    color: #ffffff;
+    background: linear-gradient(135deg, #000080 0%, #4169e1 100%);
+    border-radius: 50px;
+    height: 7vh;
+    width: 11vw;
+    padding: 1em;
+    border: 1px solid #4169e1;
+}
+.send-mail:hover {
+    background-color: #5a7df5;
+}
+.right-design {
+    width: 40%; 
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(135deg, #6e8efb, #a777e3); 
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}

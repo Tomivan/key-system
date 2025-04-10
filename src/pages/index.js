@@ -9,6 +9,7 @@ import TrustUs from '../components/trust-us/trust-us.component';
 import OurProcess from '../components/process/process.component';
 import OurPartners from '../components/partners/partners.component';
 import Footer from '../components/footer/footer.component';
+import GetStarted from '../components/get-started/get-started.component';
 
 const Pages = () => {
     return (
@@ -22,6 +23,7 @@ const Pages = () => {
             <TrustUs />
             <OurProcess />
             <OurPartners />
+            <GetStarted />
             <Footer />
         </div>
     )

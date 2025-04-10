@@ -12,7 +12,7 @@ h1 {
     font-size: 36px;
 }
 .get-started {
-    background: #4169e1;
+    background: linear-gradient(135deg, #000080 0%, #4169e1 100%);
     padding: 1em;
     border: 1px solid #4169e1;
     border-radius: 50px;
@@ -36,4 +36,32 @@ h1 {
 }
 .rectangle {
     margin-top: -50%;
+}
+
+@media screen and (max-width: 767px) {
+    .span {
+      margin-top: 5%;
+    }
+    .get-started, .learn-more {
+        width: 40%;
+    }
+    .images {
+        margin-top: 20%;
+    }
+    .rectangle{
+        width: 90%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rectangle {
+      width: 90%;
+    }
+  }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .get-started, .learn-more {
+      width: 20vw;
+    }
+    .images {
+        margin-top: 15%;
+    }
 }

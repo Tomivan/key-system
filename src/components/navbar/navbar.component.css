@@ -15,7 +15,7 @@ li{
 .right {
     display: flex;
     color: #ffffff;
-    background: #4169e1;
+    background: linear-gradient(135deg, #000080 0%, #4169e1 100%);
     border-radius: 50px;
     height: 7vh;
     width: 13vw;
@@ -25,4 +25,20 @@ li{
 .phone{
     height: 3vh;
     margin-right: 3%;
+}
+@media screen and (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+    }
+    .right {
+      width: 50vw;
+      margin-left: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .right {
+      width: 25vw;
+      height: 5vh;
+    }
 }

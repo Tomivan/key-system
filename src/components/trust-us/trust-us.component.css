@@ -3,3 +3,15 @@
     text-align: center;
     background: #03020a;
 }
+
+@media screen and (max-width: 767px) {
+    .frame-2 {
+      width: 80%;
+    }
+  }
+
+@media screen and (min-width: 767px)  and (max-width: 1023px){
+    .frame-2 {
+      width: 90%;
+    }
+  }
