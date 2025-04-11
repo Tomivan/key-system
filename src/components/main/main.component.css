@@ -28,6 +28,9 @@ h1 {
     width: 10vw;
     margin-left: 2%;
 }
+.get-started:hover, .learn-more:hover {
+    background-color: #5a7df5;
+}
 .images {
     margin-top: 5%;
 }

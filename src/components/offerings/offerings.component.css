@@ -53,6 +53,9 @@
     display: flex;
     justify-content: space-evenly;
 }
+.learn-more-1:hover, .button-section button {
+    background-color: #5a7df5;
+}
 
 @media screen and (max-width: 767px) {
     .learn-more-1, .button-section button {

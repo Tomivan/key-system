@@ -21,14 +21,28 @@
     border: 1px solid #4169e1;
 }
 .send-mail:hover {
-    background-color: #5a7df5;
+    background-color: #030517;
 }
 .right-design {
     width: 40%; 
     height: 100%;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     background: linear-gradient(135deg, #6e8efb, #a777e3); 
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
+
+@media screen and (max-width: 767px) {
+    .send-mail {
+      width: 40vw;
+      height: 5vh;
+    }
+  }
+
+@media screen and (max-width: 768px) and (max-width: 1023px) {
+    .send-mail {
+      width: 20vw;
+      height: 5vh;
+    }
+  }

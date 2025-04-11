@@ -15,7 +15,7 @@ const GetStarted = () => {
                     their career to the next level by enrolling in one of our training <br /> programs today.</p>
                     <button className='send-mail'>Send us a Mail Now</button>
                 </div>
-                <div class="right-design"></div>
+                <div className="right-design"></div>
             </div>
         </div>
     )
