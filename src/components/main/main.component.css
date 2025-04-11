@@ -30,6 +30,9 @@ h1 {
 }
 .get-started:hover, .learn-more:hover {
     background-color: #5a7df5;
+    width: 12vw;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 .images {
     margin-top: 5%;
